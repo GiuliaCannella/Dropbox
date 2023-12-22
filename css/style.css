@@ -32,11 +32,12 @@
     flex-direction: column;
 }
 
-.container-p {
-    width: 30%;
-    margin-left: 10%;
-    padding-bottom: 20em;
+.impostazioni-img-jumbo {
+    width: 90%;
+    margin-left: 1em;
+   padding-top: 6em;
 }
+
 
 
 /* HEADER */
@@ -134,26 +135,83 @@ height:60px;
 
 .sfondo-azzurro-img1 {
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     background-color: #b4d0e7;
     margin-top: 10vh;
 }
 
+.container-p {
+    width: 30%;
+    margin-left: 10%;
+    /* background-color: red; */
+}
+
+
 .title h1 {
  font-size: 80px;
- padding-top:2em;
+padding-top: 2em;
  font-weight: bold;
  text-align: center;
     
 }
+ .jumbo-p {
+padding-top: 1em;
+ }
+.arrow {
+  font-size: 2em;
+  margin-top: 7em;
+  margin-left: 1em;
+} 
 
-.jumbo-p {
-    padding-top:2em ; 
+.arrow:hover {
+    transform: scale(1;1);
 }
 
 
+.container-img {
+     
+   /* background-color: yellow; */
+   width: 70%;
+
+}
 
 
+.titolo-2 {
+    padding-top: 1em;
+   font-size: 40px;
+   margin-left: 2em;  
+}
 
+.container-fatturazioni {
+    margin-top: 2em;
+  
+}
+
+.p-2 {
+    font-size: 20px;
+    margin-top: 3em;
+    margin-left: 8em;
+}
+.fatturazione-annuale {
+    margin-left: 6em;
+}
+
+
+.circle {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.caselle {
+    width: 25%;
+    height: 400px;
+    border: 1px solid lightgray;
+    margin-left: 10em;
+    margin-top: 3em;
+}
+ 
 
 
